@@ -7,10 +7,14 @@
     <!-- Obtain a temp Access Token at https://dashboard.agora.io -->
     <!-- You will need to deploy your own token server for production release -->
     <!-- Leave this value empty if Security keys/Token is not enabled for your project -->
-    <string name="agora_access_token">006acdf72661989470aba8889fd7f476576IAD1+KgHDd/s9CGDkksqNATHsH8BYlq5TOzTNJ72/o9oY0eO+aIAAAAAEAD45Mp2bEPyYQEAAQBsQ/Jh</string>
+    <string name="agora_access_token">006acdf72661989470aba8889fd7f476576IADCVTVAyE7/uGyEeUBybeEYS5GSdQvMNWPNIGH6zjayOkeO+aIAAAAAEAAWylBUe/gNYgEAAQB7+A1i</string>
     <string name="channel_id">Channel ID</string>
     <string name="join">Join</string>
     <string name="chanel_support_char" translatable="false">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890 !#$%()+-:;&lt;=.>?@[]^_{}|~,&amp;</string>
     <string name="leave">Leave</string>
-
+    <string name="usbvideo">USB摄像头</string>
+    <string name="localvideo">本地视频</string>
+    <string name="screenshare">屏幕分享</string>
+    <string name="alert_no_local_video_message">本地视频源不可用，请将MP4视频文件拷贝到 %s/ 并且命名为 localvideo.mp4.</string>
+    <string name="lowversiontip">系统版本过低，无法使用此功能；请使用Android5.0的系统。</string>
 </resources>

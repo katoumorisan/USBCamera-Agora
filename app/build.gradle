@@ -40,6 +40,8 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation project(path: ':lib-switch-external-video')
+    implementation project(path: ':lib-component')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
@@ -57,5 +59,6 @@ dependencies {
     implementation 'cat.ereza:customactivityoncrash:2.3.0'
     implementation 'com.android.support:multidex:1.0.3'
 //    implementation 'com.github.my11712:serenegiant-common:V4.1.1'
-    implementation 'com.github.katoumorisan:HiUSBCamera:1.0.0'
+    implementation 'com.github.katoumorisan:HiUSBCamera:1.2.0'
+//    implementation project(':lib-switch-external-video')
 }

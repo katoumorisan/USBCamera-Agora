@@ -42,6 +42,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".USBVideoActivity"/>
+        <activity android:name=".USBVideo2Activity"/>
+        <activity android:name=".SwitchExternalVideoActivity"/>
     </application>
 
 </manifest>

@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.button2).setOnClickListener { toCameraPreview() }
         findViewById<Button>(R.id.button3).setOnClickListener { toVideoChat() }
         findViewById<Button>(R.id.button4).setOnClickListener { toUSBVideoChat() }
+        findViewById<Button>(R.id.button5).setOnClickListener { toUSBVideoChat2()}
+        findViewById<Button>(R.id.button6).setOnClickListener { toSwitchExternalVideo()}
     }
 
 
@@ -43,6 +45,16 @@ class MainActivity : AppCompatActivity() {
 
     private fun toUSBVideoChat() {
         startActivity(Intent(this, USBVideoActivity::class.java))
+
+    }
+
+    private fun toUSBVideoChat2() {
+        startActivity(Intent(this, USBVideo2Activity::class.java))
+
+    }
+
+    private fun toSwitchExternalVideo() {
+        startActivity(Intent(this, SwitchExternalVideoActivity::class.java))
 
     }
 

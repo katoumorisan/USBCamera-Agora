@@ -9,3 +9,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "USBCamera-Agora"
 include ':app'
+include ':lib-switch-external-video'
+include ':lib-component'
